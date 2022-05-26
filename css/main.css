@@ -1,0 +1,82 @@
+body {
+	outline: greenyellow;
+font-family: 'Roboto', sans-serif;
+}
+* {
+	box-sizing: border-box;
+}
+.container{
+	width: 1100px;
+	padding: 0 50px;
+	margin: 0 auto;
+}
+a  {
+	text-decoration: none;
+}
+.hero{
+	padding: 185px 0;
+	background-color: #F2F2F2;
+}
+.hero .card-group {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+.hero .card-group .card-sedan {
+background-color: #E28625;
+}
+.hero .card-group .card-suv {
+background-color: #006971;
+}
+.hero .card-group .card-luxury {
+background-color: #004140;
+}
+.hero .card-group .card {
+	width: 307px;
+	padding: 48px;
+border-radius: 8px;
+
+}
+.hero .card-group .card .title {
+	font-family: 'Big Shoulders Display', cursive;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 48px;
+	text-transform: uppercase;
+	color: #F2F2F2;
+	margin: 35px 0 25px 0;
+}
+.hero .card-group .card .text {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 25px;
+	color: #FFFFFF;
+	opacity: 0.75;
+	margin: 0 0 83px 0;
+}
+.hero .card-group .card .btn {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 25px;
+	background-color: #F2F2F2;
+	padding: 11px 31px;
+	border-radius: 25px;
+	border: 2px solid transparent;
+	transition: background-color 0.5s linear,color 0.5s linear;
+}
+.hero .card-group .card .btn:hover {
+	background-color: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+}
+.hero .card-group .card .btn-sedan {
+color: #E28625;
+}
+.hero .card-group .card .btn-suv {
+color: #006971;
+}
+.hero .card-group .card .btn-luxury {
+color: #004140;
+} 
