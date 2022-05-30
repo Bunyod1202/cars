@@ -1,5 +1,5 @@
 body {
-	outline: greenyellow;
+	outline:none;
 font-family: 'Roboto', sans-serif;
 }
 * {
@@ -80,5 +80,18 @@ color: #E28625;
 color: #006971;
 }
 .hero .card-group .card .btn-luxury {
-color: #004140;
+	color: #004140;
 } 
+.hero .card-group .card .car-img {
+	width: 64px;
+	height: 40px;
+}
+.hero .card-group .card .car-img-sedans {
+	background-image: url("../images/icon-sedan.svg");
+}
+.hero .card-group .card .car-img-suvs {
+	background-image: url("../images/icon-suv.svg");
+}
+.hero .card-group .card .car-img-luxury {
+	background-image: url("../images/icon-luxury.svg");
+}
